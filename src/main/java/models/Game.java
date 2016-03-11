@@ -88,6 +88,16 @@ public class Game {
         }
         return 0;
     }
+    
+    public String getCardFromURL(Card card){
+	    String URL =  https://raw.githubusercontent.com/cs361-W16/Blackjack-1/master/src/main/java/assets/images/”;
+	    int tempV = card.getValue().toString();
+        String =tempS = card.getSuit().toString();
+        URL = URL + tempV + “of” + tempS + “.png”;
+	    Return URL;
+    }
+
+
 
     public void newGame(){
 
